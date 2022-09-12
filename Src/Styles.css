@@ -1,5 +1,137 @@
+:root{
+    --gray-color: gray;
+    --blue-color: #3851a4;
+    --darkgray-color:#8e8e8e;
+  }
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;    
+}
+
+html{
+    font-size: 62.5%;
+  }
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .main--login{
+    width: 90%;
+    margin: 20px auto;
+  }
+
+
+  .main--login .main--title{
+    text-align: center;
+    margin-bottom: 15px;
+    color:rgb(23, 52, 158) ;
+  }
+
+  .main--login .main--title > h1{
+    font-size: 3.2rem;
+  }
+
+  /* Estilos form */
+  
+  .login--form{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .login--form .form--input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid var(--gray-color);
+  }
+
+  .login--form .form--button{
+    display: block;
+    padding: 10px;
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  /*Estilos divisor*/
+  .divisor{
+    text-align: center;
+  }
+  /*Estilos links*/
+
+  .login--alternative{
+    text-align:  center;
+  }
+
+  .alternate--link{
+    color: black;
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .alternate--link__bold{
+    font-weight: bold;
+  }
+
+  .alternate--link__small{
+    font-weight: 500;
+    color: black;
+  }
+  
+  .alternate--paragraph{
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .alternate--link__blue{
+    color: #0095f6;
+  }
+
+  /*Estilos de login--links*/
+
+  .login--links{
+    text-align: center;
+    font-size: 14px;
+    margin:  5px 20px;
+  }
+  
+  .login--links img{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+ }
+
+ .flex--container{
+ }
+ /*Estilos del footer*/
+
+ .footer{
+   color: var(--darkgray-color);
+}
+
+.footer--list{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+} 
+
+.footer--list li a {
+  margin: 5px;
+  list-style: none;
+  color: var(--darkgray-color);
 }
