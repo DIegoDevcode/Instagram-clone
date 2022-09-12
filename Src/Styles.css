@@ -107,15 +107,13 @@ html{
     margin:  5px 20px;
   }
   
-  .login--links img{
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    text-align: center;
- }
+ .links--list{
+  display: flex;
+  width: 50%;
+  text-align: center;
+  margin: 10px;
+}
 
- .flex--container{
- }
  /*Estilos del footer*/
 
  .footer{
