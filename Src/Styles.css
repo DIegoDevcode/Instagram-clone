@@ -107,9 +107,8 @@ html{
     margin:  5px 20px;
   }
   
- .links--list{
+ .links--store{
   display: flex;
-  width: 50%;
   text-align: center;
   margin: 10px;
 }
